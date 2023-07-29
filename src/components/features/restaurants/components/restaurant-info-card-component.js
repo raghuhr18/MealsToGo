@@ -15,7 +15,7 @@ backgroundColor: "white"
 
 const Title = styled(Text)`
 padding: 18px;
-color:red
+color: ${(props) => props.theme.colors.ui.error}
 `;
 
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
